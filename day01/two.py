@@ -33,7 +33,7 @@ def find_digit_indexes(input):
             digit_indexes.sort(key = lambda x: x[0])
     return digit_indexes
         
-with open('../1/input', 'r', encoding='UTF8') as reader:
+with open('input', 'r', encoding='UTF8') as reader:
     line = reader.readline()
     while line != '':
         current_digit_indexes = []
